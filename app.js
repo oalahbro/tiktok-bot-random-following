@@ -24,7 +24,7 @@ function delay(time) {
 }
 
 async function main() {
-  const browser = await puppeteer.launch({headless: false, userDataDir: '/home/eclipse/Documents/Default',
+  const browser = await puppeteer.launch({headless: true, userDataDir: '/home/eclipse/Documents/Default',
     executablePath: '/usr/bin/google-chrome',
     // args:[
     // '--user-data-dir=/home/eclipse/.config/google-chrome/',
